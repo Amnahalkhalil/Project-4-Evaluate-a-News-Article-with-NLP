@@ -1,3 +1,4 @@
+var PORT = process.env.PORT || 8081;
 const dotenv = require('dotenv');
 dotenv.config();
 var path = require('path')
@@ -23,8 +24,8 @@ app.get('/', function (req, res) {
 
 });
 
-app.listen(8081, function () {
-    console.log("http://localhost:8081/");
+app.listen(PORT, function () {
+    console.log("http://localhost:" + PORT);
 });
 
 
