@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>project #4</title>
+</head>
+
+<body>
+    <!--This is a header-->
+    <header class="header">
+        <div class="">
+            Project#4: Evaluate a News Article with NLP
+        </div>
+    </header>
+
+    <main>
+        <div class="errors">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <div id="error"></div>
+        </div>
+
+
+        <section>
+            <!--This is the form -->
+            <form class="form" onsubmit="return Client.handleSubmit(event)">
+                <input id="url" class="url" type="url" name="url" value="" placeholder="Enter URL">
+                <input type="submit" class="btn" name="" value="Submit" onclick="return Client.handleSubmit(event)"
+                    onsubmit="return Client.handleSubmit(event)">
+            </form>
+            <!--Here are the results-->
+
+            <section class="results">
+                <h3>
+                    <strong class="highlight">Form Results</strong>
+                </h3>
+                <h4>
+                    <span class="highlight">Polarity:</span>
+                </h4>
+                <p class="results" id="polarity"></p>
+                <h4>
+                    <span class="highlight">Subjectivity:</span>
+                </h4>
+                <p class="results" id="subjectivity"></p>
+                <h4>
+                    <span class="highlight">Text: </span>
+                </h4>
+                <p class="results" id="excerpt"></p>
+                <h4>
+                    <span class="highlight">Polarity Confidence:</span>
+                </h4>
+                <p class="results" id="polarity_confidence"></p>
+                <h4>
+                    <span class="highlight">Subjectivity Confidence: </span>
+                </h4>
+                <p class="results" id="subjectivity_confidence"></p>
+            </section>
+        </section>
+    </main>
+    <!--This is a footer-->
+    <footer class="footer">
+        <p>Udacity &copy; 2020</p>
+    </footer>
+
+</body>
+
+</html>

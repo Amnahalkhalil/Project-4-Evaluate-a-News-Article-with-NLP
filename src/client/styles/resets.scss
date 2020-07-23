@@ -1,0 +1,40 @@
+h1 {
+	font-size: 45px;
+	text-align:center;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 20px;
+	text-align:center;
+}
+
+h3, h4 {
+    font-size: 18px;
+    font-weight: 700;
+    width: 220px;
+    color: #31445b;	
+}
+
+strong{
+    text-transform: uppercase;
+}
+
+span.highlight{
+    background: linear-gradient(180deg,hsla(0,0%,100%,0) 65%,#8abe06 0);
+}
+
+p.results{
+    color: #89a9ca;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}   
+
+main {
+    flex: 1;
+    margin: 60px 10%;
+}
