@@ -1,2 +1,1 @@
-
-web: node src/server/app.jsc
+web: npm start node src/server/app.jsc
