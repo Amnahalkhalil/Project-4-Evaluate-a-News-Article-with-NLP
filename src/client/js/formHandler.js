@@ -6,7 +6,7 @@ function handleSubmit(event) {
     //    let input_url = document.querySelectorAll('input')
     if (Client.checkURL(JSON.parse(JSON.stringify(url[0].value)))) {
         console.log("::: Form Submitted :::")
-        fetch('http://localhost:8081/post', {
+        fetch('/post', {
             method: 'POST',
             mode: 'cors',
             headers: {
