@@ -21,7 +21,7 @@ For dev env run `npm run build-dev`
 
 1. Run `npm install` to install dependencies.
 2. Create a new `.env` file in the root of your project.
-3. Fill the .env file with your API keys like this: [ API key](https://newsapi.aylien.com/)
+3. Fill the .env file with your API keys like this: [ you can get API ID and key form Aylien](https://newsapi.aylien.com/)
 ```
 API_ID=**************************
 API_KEY=**************************
