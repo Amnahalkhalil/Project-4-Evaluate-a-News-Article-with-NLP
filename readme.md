@@ -15,7 +15,7 @@ For test run `npm run test`
 
 ## Development environment
 
-For test run `npm run build-dev`
+For dev env run `npm run build-dev`
 
 ## How to run the project
 
