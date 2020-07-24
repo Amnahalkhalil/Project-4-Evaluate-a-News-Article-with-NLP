@@ -32,6 +32,6 @@ API_KEY=**************************
 
 
 ## Online demo hosted on Heroku
-[Check this online demo hosted](https://udacity-project--072020.herokuapp.com/)
+[Check the online demo here](https://udacity-project--072020.herokuapp.com/)
 
 
