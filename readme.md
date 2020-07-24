@@ -5,16 +5,16 @@ This project requires you to build a web tool that allows users to run Natural L
 
 - Server side: app.js
 - Client side: 
-    -checkUrl.js and 
-    -formHandler.js
+  - checkUrl.js and 
+  - formHandler.js
 
 ## How to run the project
 
-    1. Run `npm run build-prod` to create dist folder
-    2. Start the server with `npm run start`
-    3. Go to [http://localhost:8081] (http://localhost:8081)
+1. Run `npm run build-prod` to create dist folder
+2. Start the server with `npm run start`
+3. Go to [http://localhost:8081](http://localhost:8081)
 
 ## Online demo hosted on Heroku
- [see a demo here] (https://udacity-project--072020.herokuapp.com/)
+ [see a demo here](https://udacity-project--072020.herokuapp.com/)
 
 
