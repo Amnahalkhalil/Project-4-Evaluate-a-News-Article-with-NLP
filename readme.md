@@ -8,7 +8,7 @@ This project requires you to build a web tool that allows users to run Natural L
 - Client side: 
   - checkUrl.js 
   - formHandler.js
-
+  
 ## Testing
 
 For test run `npm run test`
